@@ -4,8 +4,6 @@ In this workshop, we'll build up a NodeJS app from the ground up and check our u
 
 Remember to preview the `README` first.
 
-Change
-
 ## Level 300
 
 Welcome to Node Workshop Level 300.
