@@ -21,3 +21,4 @@ You run the command `npm start` inside this directory, then
 
 {YOUR_ANSWER_HERE}
 
+both console.logs will throw an error because the express dependency is not imported.
