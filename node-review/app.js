@@ -9,9 +9,13 @@ const server = express();
 
 
 
-server.get("/",function() {
-    response.status(201).send("");
+server.get("/",function(request,response) {
+    response.status(200).send("You've successfully reached the server");
 });
 // set up a "/" endpoint
 // it should respond with "You've successfully reached the server"
 // it should respond with status code 200
+
+server.listen(9090, () => {
+  console.log("listening on port 9090...");
+});
