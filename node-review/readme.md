@@ -26,4 +26,4 @@ Think carefully about the current files and folders you've got in the `node-revi
 a) Nothing will happen because we did not install NPM node
 
 b) How can you can resolve this problem?
-it to install npm.
+Its to install npm.
