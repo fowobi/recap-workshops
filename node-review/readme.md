@@ -26,5 +26,5 @@ What problem do you notice? Why is this happening?
 
 How can you fix this problem? Fix it, check it works and then commit 💪
 
- 
+ i change the const to exports.albums.js in albums.js and i remove the curl bracket in the app.js in the send albums.
 

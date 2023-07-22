@@ -1,6 +1,6 @@
 const express = require('express');
 // loading the express module on line one
-
+const albums = require("./albums.js");
 
 
 const server = express();
@@ -18,9 +18,7 @@ server.get("/",function(request,response) {
 
 
 server.get('/albums',function(request,response) {
-    response.status(200).send({
-        albums
-    });
+    response.status(200).send(albums);
 });
 
 server.listen(9090,() => { 

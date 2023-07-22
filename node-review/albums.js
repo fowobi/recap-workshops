@@ -1,5 +1,5 @@
 // albums data now lives in a separate file
-const albums = [{
+exports.albums = [{
     title : "Afrique Victime",
     artist: "Mdou Moctar",
     yearOfRelease: 2021
