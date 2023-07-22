@@ -23,8 +23,8 @@ server.get('/albums',function(request,response) {
 
 
 server.get('/albums/:id',function(request,response) {
-
-    const album = albums.find(album => album.id === request.params);
+   const id = parseInt(request.params.id);
+    const album = albums.find((album) => album.id === id);
 
     response.status(200).send({
         album

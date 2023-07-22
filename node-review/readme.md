@@ -54,4 +54,6 @@ Describe the buggy behaviour you're seeing at the moment:
 
 {WHAT'S_THE_BUG?}
 
+it is giving an empty object instead of displaying the whole object.
+
 Now try fixing the bug! 💪
